@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-gap: 2px;
+    background-color: ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:100px 650px 35px auto 35px 505px 505px 35px 100px  ;
+    grid-template-areas: 
+    "a a a a a a"
+    "w w z z z z"
+    "k k k k k k"
+    "b b b b b b"
+    "t t t t t t"
+    "c c l l x x"
+    "p p q q r r"
+    "y y y y y y "
+    "d1 d1 d2 d2 d3 d3"
+
+}
+h1{
+    margin-top: 0;
+}
+p{
+    padding: 1px;
+}
+.bp{
+    grid-area: a;
+    background-color: green;
+}
+.ipo{
+    
+    grid-area: w;
+    background-color: white;
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.info{
+    grid-area: z;
+    background-color: white;
+    text-align: justify;
+    font-size:larger;
+   padding: 1px;
+   margin-right: 2px;
+}
+.wasilah{
+    grid-area: k;
+    background-color: brown;
+    font-size: 27px;
+    color: white;
+    }
+a:hover{
+    color: gold;
+}
+
+.kenal{
+    grid-area: t;
+    background-color: brown;
+    font-size: 27px;
+    color: white;
+    }
+
+
+.produk{
+grid-area: b;
+background-color: aqua;
+}
+
+
+.testimoni1{
+grid-area: c;
+background-color: brown;
+width: 505px;
+
+}
+.testimoni2{
+    grid-area: l;
+    background-color: brown;
+    
+height: 505px;
+    }
+    .testimoni3{
+        grid-area: x;
+        background-color: brown;
+        
+height: 505px;
+        }
+
+
+        .testimoni4{
+            grid-area: p;
+            background-color: brown;
+            width: 505px;
+            
+            }
+            .testimoni5{
+                grid-area: q;
+                background-color: brown;
+                
+            height: 505px;
+                }
+                .testimoni6{
+                    grid-area: r;
+                    background-color: brown;
+                    
+            height: 505px;
+                    }
+.call{
+    grid-area: y;
+    background-color: brown;
+    font-size: 27px;
+    color: white;
+}
+.pesan1{
+grid-area: d1;
+background-color: brown;
+color: white;
+font-size: 17px
+text-align:center;
+margin: left 2px;
+
+}
+
+.pesan2{
+    grid-area: d2;
+    background-color: brown;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    }
+
+    .pesan3{
+        grid-area: d3;
+        background-color: brown;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        }
+        /* responsive */
+        /* Gaya khusus untuk layar berukuran sedang (misalnya, tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Gaya khusus untuk layar berukuran besar (misalnya, desktop) */
+  @media only screen and (min-width: 1025px) {
+    body {
+      font-size: 18px;
+    }
+  }
